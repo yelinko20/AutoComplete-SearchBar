@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #343a40;
+}
+
+
+  .resultProductContainer::-webkit-scrollbar {
+    width: 8px;
+    height: 20px;
+    border-radius: 10px;
+    background: #e0cbcb;
+  }
+  .resultProductContainer::-webkit-scrollbar-thumb {
+    background: #d2a231;
+    border-radius: 10px;
+  }
+
